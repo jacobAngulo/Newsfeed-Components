@@ -92,7 +92,8 @@
   top: 10px;
   right: 10px;
 }
-.article .expandButton {
+.article .expandButton,
+.article .minimizeButton {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -104,6 +105,9 @@
 }
 .article-open {
   height: 400px;
+}
+.hide-btn {
+  display: none;
 }
 html,
 body {
